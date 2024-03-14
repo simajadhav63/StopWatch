@@ -1,0 +1,53 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://media.istockphoto.com/id/1076066666/photo/abstract-blur-beauty-pastel-color-tone-skyline-scene-with-colorful-background-and-bright.webp?b=1&s=170667a&w=0&k=20&c=tDhu-RHoXQBPTBZfX2R5mtJmUfLS5F-6rn3rjMulBRk=);
+  background-size: cover;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .stopwatch {
+    display: inline-block;
+    color: rgb(9, 153, 172);
+  }
+  
+  .display {
+    font-size: 6rem;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .control-btn {
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 0 10px;
+    border: beige;
+    border-radius: 10px;
+    background-color: #1574da;
+    color: #c91515;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .control-btn:hover {
+    background-color: #0056b3;
+  }
+  
